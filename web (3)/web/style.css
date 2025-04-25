@@ -1,0 +1,115 @@
+body {
+    background: #000000;
+    font-family: 'Arial', sans-serif;
+    direction: rtl;
+}
+
+.login-container {
+    width: 500px;
+    background: #fff; 
+    border-radius: 15px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+.login-header {
+    margin-bottom: 30px;
+}
+
+.club-image {
+    width: 150px;
+    height: auto;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.login-container h2 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 0;
+}
+
+.login-container h2 i {
+    margin-left: 5px;
+    color: #d9534f; 
+}
+
+.nav-tabs .nav-link {
+    color: #555; /
+    background: #f8f8f8
+    border-radius: 8px 8px 0 0;
+    border: 1px solid #ddd;
+    border-bottom: none;
+}
+
+.nav-tabs .nav-link.active {
+    color: #fff; 
+    background: #d9534f; 
+    border-color: #d9534f;
+}
+
+.tab-content {
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-top: none;
+    border-radius: 0 0 8px 8px;
+    background: #f8f8f8;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    text-align: right;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+.form-group label i {
+    margin-left: 5px;
+}
+
+.form-control {
+    padding: 12px;
+    border-radius: 6px;
+    font-size: 16px;
+    text-align: right;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    color: #333;
+    transition: border-color 0.3s;
+}
+
+.form-control:focus {
+    outline: none;
+    border-color: #d9534f;
+    box-shadow: 0 0 5px rgba(217, 83, 79, 0.5);
+}
+
+.btn-primary, .btn-danger {
+    color: white;
+    padding: 12px;
+    border-radius: 8px;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width: 100%;
+}
+
+.btn-primary {
+    background-color: #660000; 
+}
+
+.btn-danger {
+    background-color: #d9534f; 
+}
+
+.btn-primary:hover, .btn-danger:hover {
+    opacity: 0.9;
+}
